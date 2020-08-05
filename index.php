@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
     
     <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
-    <link rel="stylesheet" href="css/foo.css"> 
+    <link rel="stylesheet" href="css/FoodReviewStyle.css"> 
     
 </head>
     
