@@ -4,12 +4,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Put Content Here">
-    <meta name="keywords" content="Put keywords here">
-    <meta name="author" content="Put your name here">
+    <meta name="description" content="Shazeels Food Review Database">
+    <meta name="keywords" content="Food, Review ">
+    <meta name="author" content="Shazeel Ali 11HCV">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Website Title goes here</title>
+    <title>Shazeels's Food Reviews</title>
     
     <!-- Edit the link below / replace with your chosen google font -->
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
@@ -35,17 +35,9 @@
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Website Name</h1>
+            <h1>Shazeel's Food Review Database</h1>
         </div>    <!-- / banner -->
 
-        <!-- Navigation goes here.  Edit BOTH the file name and the link name -->
-        <div class="box nav">
-            <a href="index.html">Home</a> | 
-            <a href="page1.html">Page 1</a> | 
-            <a href="page2.html">Page 2</a> | 
-            <a href="page3.html">Page 3</a> | 
-            <a href="contact.html">Contact</a>
-        </div>    <!-- / nav -->        
         
         
         <div class="box side">
@@ -71,7 +63,7 @@
         
 
         <div class="box footer">
-            CC yourname 20XX
+            CC Shazeel Ali 11HCV 2020
         </div>    <!-- / footer -->
     
     </div>  <!-- / wrapper  -->
