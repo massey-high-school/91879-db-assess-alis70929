@@ -41,10 +41,15 @@
         
         
         <div class="box side">
-            Side Bar goes here
+            Side Bar goes here<br/>
             
-            Side bar will contain all queries/
-            Show
+            Side bar will contain all queries<br/>
+            Home|Show All<br/>
+            Food Name<br/>
+            restauraunt<br/>
+            Meal<br/>
+            vege/nonvege<br/>
+            Rating<br/>
         </div>
         
         <div class="box main">
