@@ -30,7 +30,7 @@
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
             <div class="box logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="images/gen_logo.png" width="150" height="150" alt="generic logo" />
+            <img class="img-circle" src="Images/FoodLogo.png" width="100" height="100" alt="generic logo" />
             
             </div>    <!-- / logo -->
         </a>
@@ -42,6 +42,9 @@
         
         <div class="box side">
             Side Bar goes here
+            
+            Side bar will contain all queries/
+            Show
         </div>
         
         <div class="box main">
