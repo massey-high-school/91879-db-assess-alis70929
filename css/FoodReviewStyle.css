@@ -116,9 +116,74 @@ a:hover{color: #000;}    /* Black*/
     font-weight: bold;
 }
 
+/* Results formatting */
+.results {
+    background-color: #f4ebe1;/* Whitish Beige */
+    border-radius: 10px;
+    border: 1px solid #000;/* Black */
+    padding: 5px;
+}
 
 
+/* error box formatting */
+.error{
+    background-color: #ffe0ed;/* light pink */
+    border: 2px solid #8a1737;/* Maroonny Red */
+    color: #8a1737;
+    border-radius: 5px;
+    padding:20px;
+}
 
+/* form formatting */
+form{
+    width: 250px;
+    margin: 5px;
+}
+/* search box formatting */
+
+.search{
+    width:150px;
+    padding: 8px 15px;
+    background-color: #fff;  
+}
+
+/* search button formatting */
+.submit{
+    font-family: FontAwesome;
+    position: relative;
+    width: 45px;
+    left: -1px;
+    background-color:#EEE0CB;
+    color: #8B4513;
+    border: 1px solid #8B4513;
+    border-radius: 0 5px 5px 0;
+}
+
+/* input formatting */
+input{
+    height:40px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type = "submit"]:hover{
+    background-color: #000;
+}
+
+/* select boxes formatting*/
+select{
+    outline: 0;
+    height: 40px;
+    border: 1px solid #ccc;
+    color: #878787;
+    width: 150px;
+}
+
+/* Formatting for my halfwidth select boxes */
+.halfwidth{
+    width: 74px;
+}
 
 
 
