@@ -1,56 +1,6 @@
-<!DOCTYPE HTML>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Shazeels Food Review Database">
-    <meta name="keywords" content="Food, Review ">
-    <meta name="author" content="Shazeel Ali 11HCV">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Shazeels's Food Reviews</title>
-    
-    <!-- Edit the link below / replace with your chosen google font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
-    
-    <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
-    <link rel="stylesheet" href="css/FoodReviewStyle.css"> 
-    
-</head>
-    
-<body>
-    
-    <div class="wrapper">
-    
-
-        
-        <div class="box banner">
-            
-        <!-- logo image linking to home page goes here -->
-        <a href="index.php">
-            <div class="box logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="Images/FoodLogo.png" width="100" height="100" alt="generic logo" />
-            
-            </div>    <!-- / logo -->
-        </a>
-            
-            <h1>Shazeel's Food Review Database</h1>
-        </div>    <!-- / banner -->
-
-        
-        
-        <div class="box side">
-            Side Bar goes here<br/>
-            
-            Side bar will contain all queries<br/>
-            Home|Show All<br/>
-            Food Name<br/>
-            restauraunt<br/>
-            Meal<br/>
-            vege/nonvege<br/>
-            Rating<br/>
-        </div>
+<?php
+include("topbit.php");
+?>
         
         <div class="box main">
             <h2>First Page heading</h2>
@@ -69,11 +19,6 @@
             
         </div>    <!-- / main -->
         
-
-        <div class="box footer">
-            CC Shazeel Ali 11HCV 2020
-        </div>    <!-- / footer -->
-    
-    </div>  <!-- / wrapper  -->
-    
-</body>        
+<?php
+include("bottombit.php");
+?>
