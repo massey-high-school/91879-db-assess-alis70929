@@ -81,7 +81,7 @@ h1, h2, h3, h4 {
 
 /* Navigation Links */
 a.side: {font-weight: bold;}
-a.side:link, a.side:visited {color: #AA0000;} /*dark red */
+a.side:link, a.side:visited {color: #b5651d;} /* light brown */
 a.side:hover {color: #604830; text-decoration: none;} /* chocolate brown */
 
 

@@ -85,25 +85,17 @@
            
            <select name = "meal" required>
                <option value = "" disabled selected>Meal...</option>
+               <option value = "Breakfast" >Breakfast</option>
+               <option value = "Lunch" >Lunch</option>
+               <option value = "Dinner" >Dinner</option>
+               <option value = "Dessert" >Dessert</option>
                
-              <?php 
-               $meal_sql = "SELECT DISTINCT `Meal` FROM `2020_L1_Assesment_ShaAli` ORDER BY `2020_L1_Assesment_ShaAli`.`Meal` ASC LIMIT 0 , 30";
-               $meal_query = mysqli_query($dbconnect, $meal_sql); ;
-               $meal_rs = mysqli_fetch_assoc($meal_query) ;
                
-               do{
-                   
-               ?>
                
-               <option value = "<?php echo $meal_rs['Meal']; ?>"><?php echo $meal_rs['Meal']; ?></option>
                
-               <?php
-               }// end of meal retrival
                
-               while($meal_rs =mysqli_fetch_assoc($meal_query));
                
-
-               ?>
+              
                
             </select>
             
@@ -111,8 +103,51 @@
            </form>
            
            <!-- End of meal Search -->
-            vege/nonvege<br/>
-            Rating<br/>
+            <!-- Search By vegetarian -->
+           
+           <form method = "post" action = "vegetariansearch.php" enctype="multipart/form-data">
+           
+           <select name = "vegetarian" required>
+               <option value = "" disabled selected>Vegetarian...</option>
+               <option value = "Vegetarian" >Vegetarian</option>
+               <option value = "Non Vegetarian" >Non Vegetarian</option>
+               
+               
+               
+               
+               
+               
+               
+              
+               
+            </select>
+            
+            <input class = "submit" type = "submit" name = "find_vegetarian" value = "&#xf002;" />
+           </form>
+           
+           <!-- End of Vegetarian Search -->
+            <!-- Rating Search -->
+            <form method = "post" action = "ratingsearch.php" enctype="multipart/form-data">
+           <select class = "halfwidth"name = "amount">
+               <option value ="exactly">Exactly...</option>
+               <option value ="more">At Least...</option>
+               <option value ="less">At Most...</option>
+            </select>
+           <select class = "halfwidth" name = "stars" required>
+               
+               <option value = "1">&#9733;</option>
+               <option value = "2">&#9733;&#9733;</option>
+               <option value = "3">&#9733;&#9733;&#9733;</option>
+               <option value = "4">&#9733;&#9733;&#9733;&#9733;</option>
+               <option value = "5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+               
+               
+            </select>
+            
+            <input class = "submit" type = "submit" name = "find_rating" value = "&#xf002;" />
+           </form>
+            <!-- End of rating search -->
+            
         </div>
         
      
