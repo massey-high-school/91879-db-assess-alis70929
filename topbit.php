@@ -135,8 +135,8 @@
             </select>
            <select class = "halfwidth" name = "stars" required>
                
-               <option value = "1">&#9733;</option>
-               <option value = "2">&#9733;&#9733;</option>
+               <option value = "1" >&#9733;</option>
+               <option value = "2" >&#9733;&#9733;</option>
                <option value = "3">&#9733;&#9733;&#9733;</option>
                <option value = "4">&#9733;&#9733;&#9733;&#9733;</option>
                <option value = "5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
