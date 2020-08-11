@@ -54,10 +54,14 @@
         </div>    <!-- / banner -->
 
         
-        
+        <!-- Side Bar -->
         <div class="box side">
            
-           <h2> <a href="index.php" class="side">Home</a>|<a href="showall.php" class="side">Show All</a></h2><hr/>
+           <h2> <a href="index.php" class="side">Home</a>|<a href="showall.php" class="side">Show All</a></h2>
+            
+            <i>Type part of Food name or Restaraunt name if desired</i>
+            <hr/>
+            
             
             <!-- Search by Food Name -->
             <form method = "post" action = "foodnamesearch.php" enctype="multipart/form-data">
@@ -67,9 +71,9 @@
             <input class = "submit" type = "submit" name = "find_foodname" value = "&#xf002;" />
            </form>
             
-            <!-- End of Search by Restaurant Name -->
+            <!-- End of Search by Food Name -->
             
-            <!-- Search by Food Name -->
+            <!-- Search by Restaraunt Name -->
             <form method = "post" action = "restaurantsearch.php" enctype="multipart/form-data">
            
            <input class = "search" type = "text" name = "restaurant" size = "40" value = "" required placeholder = "Restaurant Name..."/>
@@ -78,7 +82,9 @@
            </form>
             
             <!-- End of Search by Restaurant Name -->
-            
+            <hr/>
+            <i>Search by Meal, Vege/Non Vege and Rating using the dropdown menus below</i>
+            <hr/>
             <!-- Search By Meal -->
            
            <form method = "post" action = "mealsearch.php" enctype="multipart/form-data">
@@ -108,7 +114,7 @@
            <form method = "post" action = "vegetariansearch.php" enctype="multipart/form-data">
            
            <select name = "vegetarian" required>
-               <option value = "" disabled selected>Vegetarian...</option>
+               <option value = "" disabled selected>Vege/Non Vege...</option>
                <option value = "Vegetarian" >Vegetarian</option>
                <option value = "Non Vegetarian" >Non Vegetarian</option>
                
@@ -149,5 +155,6 @@
             <!-- End of rating search -->
             
         </div>
+        <!-- End of Side bar -->
         
      
